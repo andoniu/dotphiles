@@ -146,3 +146,6 @@
 [url "git@github.com:"]
     insteadof = github:
 
+[user]
+	email = andoniu@yahoo.co.uk
+	name = Ovidiu Andoniu
