@@ -19,3 +19,7 @@ data.location=~/.task
 curses=on
 # Color theme
 include ~/.task/colors/dark-16.theme
+#include ~/task.theme
+default.project = profiler
+uda.estimate.label=Estimate
+uda.estimate.type=duration

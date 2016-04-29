@@ -9,9 +9,13 @@
 
 # Global Config
 [user]
-    #name = "**Your Name**"
-    #email = "**Your Email**"
+    name = "Ovidiu Andoniu"
+    email = "ovidiu.andoniu@movidius.com"
     #signingkey = **Your GPG ID**
+
+[branch "develop"]
+	remote = origin
+	merge = refs/heads/develop
 
 [branch "master"]
     remote = origin
@@ -59,7 +63,7 @@
     prompt = false
 
 [merge]
-    tool = vimdiff
+	tool = bc3
 
 [alias]
     # branch
@@ -145,7 +149,5 @@
 
 [url "git@github.com:"]
     insteadof = github:
-
-[user]
-	email = andoniu@yahoo.co.uk
-	name = Ovidiu Andoniu
+[mergetool]
+	bc3 = trustExitCode
