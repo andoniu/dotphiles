@@ -65,7 +65,7 @@
 	bcompare = trustExitCode
 
 [merge]
-	tool = bc3
+	tool = bcompare
 
 [alias]
     # branch
