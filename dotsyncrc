@@ -16,6 +16,7 @@
 # dstfile will be '.$srcfile' by default (with path removed)
 #
 [files]
+X/Xresources
 # Uncomment examples below
 dotsyncrc
 #ack/ackrc
