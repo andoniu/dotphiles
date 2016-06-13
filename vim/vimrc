@@ -15,7 +15,8 @@ if has("user_commands")
   filetype off
   set rtp+=~/.vim/bundle/vundle/
   call vundle#rc()
-  let g:vundles=['general', 'git', 'programming', 'completion', 'python', 'misc']
+  "let g:vundles=['general', 'git', 'programming', 'completion', 'python', 'misc']
+  let g:vundles=['general', 'git', 'programming', 'python', 'misc']
   "let g:vundles=['general', 'programming']
   let g:neocomplcache_enable_at_startup = 1
   " Load 'vundles'
@@ -24,7 +25,8 @@ if has("user_commands")
 "  Plugin 'vim-airline/vim-airline'
   Plugin 'vim-airline/vim-airline-themes'
 
-  Plugin 'vim-colors-solarized'
+
+"vim-airline-themes should have solarized"  Plugin 'https://github.com/andoniu/vim-colors-solarized'
 
 "   Plugin 'https://github.com/scrooloose/syntastic.git'
 
@@ -35,7 +37,7 @@ if has("user_commands")
 " plugin from http://vim-scripts.org/vim/scripts.html
   Plugin 'L9'
 " Git plugin not hosted on GitHub
-  Plugin 'git://git.wincent.com/command-t.git'
+  Plugin 'git@github.com:andoniu/command-t.git'
 " git repos on your local machine (i.e. when working on your own plugin)
 "Plugin 'file:///home/gmarik/path/to/plugin'
 " The sparkup vim script is in a subdirectory of this repo called vim.
@@ -78,7 +80,7 @@ set t_Co=256
 syntax on
 " colorscheme wombat256
 "colorscheme elflord
-colorscheme solarized
+"colorscheme solarized
 " turn line numbers on
 set number
 " highlight matching braces
@@ -136,7 +138,7 @@ map <F12> <C-]>
 "  map <M-Up> [s
 "endif
 
-python from powerline.vim import setup as powerline_setup
-python powerline_setup()
-python del powerline_setup
+"python from powerline.vim import setup as powerline_setup
+"python powerline_setup()
+"python del powerline_setup
 
