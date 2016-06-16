@@ -46,6 +46,17 @@ if has("user_commands")
 " Install L9 and avoid a Naming conflict if you've already installed a
 " different version somewhere else.
 "Plugin 'ascenator/L9', {'name': 'newL9'}
+
+" Plugins from Vali
+  Plugin 'ryanoasis/vim-devicons'
+  Plugin 'Yggdroot/indentLine'
+  Plugin 'tpope/vim-surround'  " change surrond chars whith cs
+  Plugin 'PotatoesMaster/i3-vim-syntax'
+  Plugin 'octol/vim-cpp-enhanced-highlight'
+  Plugin 'kien/rainbow_parentheses.vim'
+  Plugin 'myusuf3/numbers.vim' "use relative numbers"
+
+
 endif
 
 " Customize to your needs...
@@ -142,3 +153,8 @@ map <F12> <C-]>
 "python powerline_setup()
 "python del powerline_setup
 
+" take into account the following plugins:
+"
+"Shougo/unite.vim
+"ervandew/supertab
+"SirVer/ultisnips - check this out
