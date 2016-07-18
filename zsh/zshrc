@@ -60,7 +60,7 @@ ZSH_THEME="powerline"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git taskwarrior colorize colored-man-pages docker)
+plugins=(git archlinux pip python taskwarrior colorize colored-man-pages docker docker-compose)
 
 # User configuration
 
