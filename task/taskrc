@@ -29,5 +29,6 @@ taskd.certificate=~/.task/private.certificate.pem
 taskd.key=~/.task/private.key.pem
 taskd.ca=~/.task/ca.cert.pem
 taskd.server=taskwarrior.inthe.am:53589
-taskd.credentials=inthe_am/ovidiu.andoniu/d952c75c-2520-474d-be4c-b1261266be91
+#taskd.credentials=inthe_am/ovidiu.andoniu/d952c75c-2520-474d-be4c-b1261266be91
+taskd.credentials=inthe_am/andoniu/cb078902-8095-4592-b838-d392a00fe81a
 taskd.trust=ignore hostname
