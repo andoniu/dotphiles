@@ -21,6 +21,7 @@ curses=on
 include ~/.task/colors/dark-16.theme
 #include ~/task.theme
 default.project = profiler
+default.priority = M
 uda.estimate.label=Estimate
 uda.estimate.type=duration
 
