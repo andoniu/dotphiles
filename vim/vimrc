@@ -16,7 +16,8 @@ if has("user_commands")
   set rtp+=~/.vim/bundle/vundle/
   call vundle#rc()
   "let g:vundles=['general', 'git', 'programming', 'completion', 'python', 'misc']
-  let g:vundles=['general', 'git', 'programming', 'python', 'misc']
+  "let g:vundles=['general', 'git', 'programming', 'python', 'misc']
+  let g:vundles=['general', 'git']
   "let g:vundles=['general', 'programming']
   let g:neocomplcache_enable_at_startup = 1
   " Load 'vundles'
@@ -90,7 +91,7 @@ set textwidth=120
 set t_Co=256
 syntax on
 " colorscheme wombat256
-"colorscheme elflord
+colorscheme elflord
 "colorscheme solarized
 " turn line numbers on
 set number
