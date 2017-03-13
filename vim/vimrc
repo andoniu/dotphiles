@@ -87,11 +87,11 @@ set expandtab        " expand tabs to spaces
 " wrap lines at 120 chars. 80 is somewaht antiquated with nowadays displays.
 set textwidth=120
 " turn syntax highlighting on
-"let base16colorspace=256
+let base16colorspace=256
 set t_Co=256
 syntax on
 " colorscheme wombat256
-"colorscheme elflord
+colorscheme elflord
 "colorscheme base16-solarized-dark
 " turn line numbers on
 set number
